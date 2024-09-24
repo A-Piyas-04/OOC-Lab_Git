@@ -27,6 +27,19 @@ public class NumWordPrinterTest {
         assertEquals("EvenPrimeEleven", printer.printWord(22, false));
     }
 
+    @Test
+    public void testDivisibleBy2And11And13() {
+        assertEquals("EvenPrimeLucky", printer.printWord(286, false));
+    }
+
+
+    @Test
+    public void testNotDivisibleByAny() {
+        assertEquals("OddOneOut", printer.printWord(7, false));
+    }
+
+
+
 
 
 }
