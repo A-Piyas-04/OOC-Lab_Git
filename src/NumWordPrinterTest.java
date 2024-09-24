@@ -39,7 +39,10 @@ public class NumWordPrinterTest {
     }
 
 
-
+    @Test
+    public void testUppercaseResult() {
+        assertEquals("EVEN", printer.printWord(4, true));
+    }
 
 
 }
