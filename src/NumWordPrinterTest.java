@@ -44,6 +44,5 @@ public class NumWordPrinterTest {
         assertEquals("EVEN", printer.printWord(4, true));
     }
 
-
 }
 
