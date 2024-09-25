@@ -13,7 +13,7 @@ public class NumWordPrinterTest {
 
     @Test
     public void testDivisibleBy11() {
-        assertEquals("PrimeEleven", printer.printWord(22, false));
+        assertEquals("EvenPrimeEleven", printer.printWord(22, false));
     }
 
 
