@@ -66,10 +66,19 @@ class MaxStack {
         stack.push(6);
         System.out.println("Max: " + stack.max());  // Expected Output: 6
 
-
+        //2
         stack.pop();
         System.out.println("Max after pop: " + stack.max());  // Expected Output: 5
 
 
+        //3
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(2);
+        System.out.println("Max: " + stack.max());  // Expected Output: 3
+        System.out.println("Min: " + stack.min());  // Expected Output: 1
     }
-}
+
+    }
+
