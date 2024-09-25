@@ -5,7 +5,7 @@ class MaxStack {
     private Stack<Integer> maxStack;
     private Stack<Integer> minStack;
 
-    public MaxStack(){
+    public MaxStack() {
         mainStack = new Stack<>();
         maxStack = new Stack<>();
         minStack = new Stack<>();
@@ -56,5 +56,20 @@ class MaxStack {
         return minStack.peek();
     }
 
+    public static void main(String[] args) {
+        MaxStack stack = new MaxStack();
 
+
+        stack.push(3);
+        stack.push(2);
+        stack.push(5);
+        stack.push(6);
+        System.out.println("Max: " + stack.max());  // Expected Output: 6
+
+
+        stack.pop();
+        System.out.println("Max after pop: " + stack.max());  // Expected Output: 5
+
+
+    }
 }
